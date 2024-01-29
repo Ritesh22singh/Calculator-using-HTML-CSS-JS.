@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    /* setting margin amd padding as 0 */
+}
+
+body{
+    background-color: #FAC8CD;
+
+    /* styling backgound color for body */
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    background-color: #28190E;
+    color: #fff;
+    border-radius: 2rem;
+    height: 3rem;
+/* 
+    styling for heading section */
+   
+}
+
+.msg{
+    background-color: #fff;
+    color:black;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 3rem;
+
+    /* Here msg section we are styling */
+    
+}
+
+.hero{
+    margin: 1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* This section is for hero where all button are placed */
+}
+
+#box{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+
+    /* Styling every button for calculor */
+}
+
+#box1{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: grey;
+    color: #fff;
+    border: none; 
+
+    /* This section is for button whose clear the msg after calculator */
+}
+
+#box2{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:#E3B23C;
+    color: #fff;
+    border: none;
+
+    /* This section is for oparater who is gonna solve the number */
+}
